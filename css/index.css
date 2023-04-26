@@ -11,6 +11,7 @@ body{
 	font-family: 'Trebuchet MS', sans-serif;
 	background-color: white;
 }
+
 /*HEADER*/
 body header{
 	background-color: white;
@@ -28,6 +29,7 @@ header h1{
 	float: right;
 	text-shadow: 0px 1px 2px #333333;
 }
+
 /*BARRA NAVEGACIÓN*/
 nav{
 	width: 100%;
@@ -74,6 +76,7 @@ nav li a:hover{
 	border-bottom: 2px #0A4D68 solid;
 	border-top: 2px #0A4D68 solid;
 }
+
 /*CONTENIDO SECTION*/
 section{
 	clear: left; /*Creo que se puede quitar*/
@@ -150,7 +153,8 @@ aside{
 aside p{
 	line-height: 1.5em;
 }
-/*FOOTER*/
+
+/*FOOTER - PIE DE PÁGINA*/
 footer{
 	clear: both;
 	background-color: #088395;
