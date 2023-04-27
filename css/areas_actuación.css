@@ -13,8 +13,8 @@ body{
 }
 body header{
 	background-color: white;
-	padding: 15px 40px;
-	border-bottom: 15px #0A4D68 solid;
+	padding: 15px 20px;
+	border-bottom: 5px #0A4D68 solid;
 	font-size: 24px;
 	line-height: 40px;
 }
@@ -30,7 +30,8 @@ header h1{
 header h2{
     color: #0A4D68;
     text-align: center;
-    text-shadow: 0px 1px 2px #333333;
+    text-shadow: 0px 1px 1px #333333;
+	display:inline-block;
 
 }
 nav ul{
@@ -78,6 +79,7 @@ section{
 	padding: 0px;
 	margin: 0px;
 	border: 2px #0A4D68 solid;
+	display:inline-block;
 }
 section header {
 	padding: 0px;
@@ -97,16 +99,40 @@ article {
 	margin: 0px;
 	padding:  3%;
     float:right;
+	display:inline-block;
 }
 article p{
     position: right ;
+	float:right;
+	width: 50%;
 }
 
 
-article.imagenodo{
-    width:10px;
-    height: 10%;
+.imagenodo{
+    width:40%;
     padding-right: 10px;
     float: left;
 
+
+}
+aside{
+	float:right;
+	width: 30%;
+
+}
+
+
+#fisioterapia{
+	width: 60%;
+	margin-top:30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	float:right;
+
+}
+
+footer{
+	clear: both;
+	background-color: #088395;
+	padding: 2px 15px;
 }
