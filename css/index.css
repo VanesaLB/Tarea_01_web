@@ -65,10 +65,6 @@ nav li:hover{
 	color: #00FFCA;
 	border-bottom: 2px #0A4D68 solid;
 	border-top: 2px #0A4D68 solid;
-	/*transform:translate(0px, -13px);
-	-moz-transform:translate(0px, -13px);
-	-webkit-transform:translate(0px, -13px);
-	-o-transform:translate(0px, -13px);*/
 }
 nav li a:hover{
 	background-color: #0A4D68;
@@ -79,13 +75,11 @@ nav li a:hover{
 
 /*CONTENIDO SECTION*/
 section{
-	clear: left; /*Creo que se puede quitar*/
 	width: 65%;
 	padding: 0px;
 	margin: 10px;
 	border-radius: 5px;
 	border: 2px #0A4D68 solid;
-	border-bottom: 0px;
 	display: inline-block;
 }
 section header{
@@ -105,6 +99,9 @@ section footer{
 	height: auto;
 	border-bottom: 2px #0A4D68 solid;
 }
+section footer:last-child{
+	border-bottom: 0px;
+}
 section footer p{
 	background-color: #00FFCA;
 	color: 3f3e3e;
@@ -121,13 +118,14 @@ article p{
 	text-indent: 20px;
 	font-size: 14px;
 	text-align: justify;
-	width: 60%;
+	width: 100%;
 	display: inline-block;
 	margin: 0;
 }
 .imgderechatexto{
-	width: 40%;
+	width: 30%;
 	float: right;
+	margin-left: 12px;
 }
 .textoderecha{
 
@@ -152,6 +150,19 @@ aside{
 }
 aside p{
 	line-height: 1.5em;
+	font-size: 14px;
+}
+aside p a{
+	text-decoration: none;
+	color: #00FFCA;
+}
+aside p a:hover{
+	text-decoration: none;
+	color:#0A4D68;
+}
+.imgaside{
+	width: auto;
+	margin: 10px;
 }
 
 /*FOOTER - PIE DE PÁGINA*/
@@ -159,4 +170,23 @@ footer{
 	clear: both;
 	background-color: #088395;
 	padding: 2px 15px;
+	height: 70px;
+}
+footer img {
+	width: 20px;
+}
+.copyright{
+	color: white;
+	text-align: center;
+	font-size: 12px;
+}
+.copyright img {
+	width: 15px;
+	margin-right: 3px;
+}
+.redes{
+	float: right;
+}
+.redes img{
+	display: inline;
 }
