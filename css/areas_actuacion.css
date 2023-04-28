@@ -133,7 +133,7 @@ footer{
 	background-color: #088395;
 	padding: 2px 15px;
 }
-/*reponsive tablets*/
+/*reponsive tablets
 
 .contenedor{
 	width: 100%;
@@ -152,4 +152,72 @@ header h2{
 
 nav{
 	width: 100%;
+}*/
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+	.contenedor{
+		width: 100%;
+		height: auto;
+	}
+	/*CABECERA*/
+	body header{
+		padding: 15px 2%;
+	}
+	header img{
+		width: 20%;
+	}
+	header h1{
+		font-size: 5vw;
+	}
+	header h1{
+		font-size: 4vw;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+	nav{
+		width: 100%;
+	}
+	nav ul li{
+		font-size: 2vw;
+		margin: 0px 0.5%;
+		padding: 8px 0.8%;
+	}
+	/*DESPLEGABLE DE LA BARRA DE NAVEGACIÓN*/
+	.desplegable ul{
+		margin: 26px 0px;
+	}
+	.desplegable ul li{
+		padding: 9px;
+		width: 130px;
+	}
+	/*CONTENIDO SECTION*/
+	section{
+		width: 65%;
+		padding: 0px;
+		margin: 0.6%;
+		border-radius: 8px;
+	}
+	section header{
+		padding: 0px;
+		margin: 0px;
+		border-bottom: 0px;
+	}
+	article{
+		padding: 3%;
+		height: auto;
+	}
+	.imgderechatexto{
+		width: 40%;
+	}
+	.imgizquierdatexto{
+		width: 40%;
+	}
+	/*CONTENIDO ASIDE*/
+	aside{
+		padding: 0px 1.5%;
+		margin: 0.6% 0.6% 0.6% 0px;
+	}
+	.imgaside{
+		width: 100%;
+		margin: 0.6%;
+	}
 }
