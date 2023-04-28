@@ -181,14 +181,7 @@ nav{
 		margin: 0px 0.5%;
 		padding: 8px 0.8%;
 	}
-	/*DESPLEGABLE DE LA BARRA DE NAVEGACIÓN*/
-	.desplegable ul{
-		margin: 26px 0px;
-	}
-	.desplegable ul li{
-		padding: 9px;
-		width: 130px;
-	}
+	
 	/*CONTENIDO SECTION*/
 	section{
 		width: 65%;
