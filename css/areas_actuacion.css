@@ -193,4 +193,70 @@ footer{
 		width: 100%;
 		margin: 0.6%;
 	}
+	/*RESPONSIVE PARA MÓVILES*/
+@media screen and (max-width: 700px){
+	.contenedor{
+		width: 100%;
+		height: auto;
+	}
+	/*HEADER - CABECERA*/
+	body header{
+		padding: 8% 2% 25%;
+		width: auto;
+		height: auto;
+		margin: 0px;
+	}
+	header img{
+		width: 80%;
+		margin: auto;
+		display: block;
+		clear: left;
+		border-bottom: 4px #088395 solid;
+	}
+	header h1{
+		display: block;
+		font-size: 7vw;
+		text-align: center;
+		width: auto;
+		padding: 0px;
+		margin: 20px 25% 0px 0px;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+nav{
+	width: auto;
+	background-color: #088395;
+	padding: 10px 0px;
+	border-bottom: 10px #0A4D68 solid;
+}
+nav ul{
+	height: auto;
+	margin: auto;
+}
+nav ul li{
+	color: white;
+	font-size: 18px;
+	display: block;
+	background-color: #088395;
+	margin: 0 15px;
+	padding: 8px 2px;
+	border-bottom: 2px white solid;
+	border-top: 2px white solid;
+	text-align: center;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+}
+nav ul li a:hover{
+	background-color: #0A4D68;
+	color: #00FFCA;
+}
+
+}
 }
