@@ -232,8 +232,55 @@ footer img {
 	display: inline;
 }
 
+/*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho*/
+@media screen and (min-width: 1300px){
+	.contenedor{
+		width: 80%;
+		height: auto;
+	}
+	/*BARRA DE NAVEGACIÓN*/
+	nav{
+		width: 100%;
+	}
+	nav ul li{
+		font-size: 1.4vw;
+		margin: 0px 1%;
+		padding: 8px 0.8%;
+	}
+	/*CONTENIDO SECTION*/
+	section{
+		padding: 0px;
+		margin: 0.8%;
+		font-size: 24px;
+	}
+	section header{
+		padding: 0px;
+		margin: 0px;
+		border-bottom: 0px;
+	}
+	article{
+		padding: 3%;
+		height: auto;
+	}
+	.imgderechatexto{
+		width: 40%;
+	}
+	.imgizquierdatexto{
+		width: 40%;
+	}
+	/*CONTENIDO ASIDE*/
+	aside{
+		padding: 0px 1.5%;
+		margin: 0.6% 0.6% 0.6% 0px;
+	}
+	.imgaside{
+		width: 100%;
+		margin: 0.6%;
+	}
+}
+
 /*RESPONSIVE PARA TABLETS*/
-@media screen and (min-width: 700px) and (max-width: 1000px){
+@media screen and (min-width: 700px) and (max-width: 1000px) {
 	.contenedor{
 		width: 100%;
 		height: auto;
