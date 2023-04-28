@@ -87,6 +87,7 @@ section header {
 	border-bottom: 0px;
 }
 
+<<<<<<< HEAD:css/areas_actuación.css
 section header h3{
    text-align: center;
     color:#0A4D68;
@@ -136,3 +137,11 @@ footer{
 	background-color: #088395;
 	padding: 2px 15px;
 }
+=======
+#fondo_cursos{
+    background-color: #95e5f1;
+}
+
+
+/* probando */
+>>>>>>> juan:css/quienes__somos.css
