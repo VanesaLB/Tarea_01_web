@@ -73,7 +73,12 @@ nav li a:hover{
 	border-bottom: 2px #0A4D68 solid;
 	border-top: 2px #0A4D68 solid;
 }
-section{
+
+#historia{
+
+    background-color: #00FFCA;
+}
+section {
 	/*clear: left; /*Creo que se puede quitar*/
 	width: 60%;
 	padding: 0px;
