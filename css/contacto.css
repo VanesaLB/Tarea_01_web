@@ -118,52 +118,32 @@ nav ul li a:hover{
 	top: 80px;
 }
 
-/*CONTENIDO SECTION*/
-section{
-	width: 65%;
-	padding: 0px;
-	margin: 10px;
-	border-radius: 5px;
-	border: 2px #0A4D68 solid;
-	display: inline-block;
-}
-section header{
-	padding: 0px;
-	margin: 0px;
-	border-bottom: 0px;
-}
-section header h4{
-	background-color: #088395;
-	color: white;
+/*Form - Formulario*/
+form {
+	background-color: #d6eaf8;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px #065f6e;
+  }
+  
+  fieldset {
+	border: none;
+  }
+  
+  label {
+	display: block;
+	text-align: left;
+	margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+	border: 2px solid #444;
+	padding: 10px;
 	font-size: 16px;
-	margin: 0px;
-	padding: 2px 3%;
-}
-section footer{
-	background-color: #00FFCA;
-	height: auto;
-	border-bottom: 2px #0A4D68 solid;
-}
-section footer:last-child{
-	border-bottom: 0px;
-}
-section footer p{
-	background-color: #00FFCA;
-	color: 3f3e3e;
-	padding: 1px 0px;
-	font-size: 12px;
-	font-style: italic;
-	text-align: right;
-}
-article{
-	padding: 3%;
-	height: auto;
-}
-article p{
-	text-indent: 20px;
-	font-size: 14px;
-	text-align: justify;
 	width: 100%;
+<<<<<<< HEAD:css/index.css
 	display: inline-block;
 	margin: 0;
 }
@@ -194,18 +174,68 @@ aside p{
 	font-size: 14px;
 }
 aside p a{
+=======
+	box-sizing: border-box;
+	margin-bottom: 20px;
+  }
+  
+  input[type="submit"] {
+	background-color: #4CAF50;
+	border: none;
+	color: rgb(2, 11, 15);
+	padding: 12px 28px;
+>>>>>>> asg:css/contacto.css
 	text-decoration: none;
-	color: #00FFCA;
-}
-aside p a:hover{
-	text-decoration: none;
-	color:#0A4D68;
-}
-.imgaside{
-	width: auto;
-	margin: 10px;
-}
-
+	font-size: 16px;
+	cursor: pointer;
+	margin-top: 20px;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #19475e;
+  }
+  
+  label[for="nombre"],
+  label[for="apellido"],
+  label[for="asunto"] {
+	text-align: right;
+	margin-right: 20px;
+	width: 120px;
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  input[type="text"][id="nombre"],
+  input[type="text"][id="apellido"],
+  textarea[id="asunto"] {
+	display: inline-block;
+	width: calc(100% - 140px);
+  }
+  
+  label[for="edad"],
+  label[for="email"],
+  label[for="telefono"] {
+	text-align: right;
+	margin-right: 20px;
+	width: 120px;
+	display: inline-block;
+	vertical-align: top;
+  }
+  
+  input[type="text"][id="edad"],
+  input[type="email"][id="email"],
+  input[type="text"][id="telefono"] {
+	display: inline-block;
+	width: calc(100% - 140px);
+  }
+  fieldset {
+	background-color: #007f7f;
+  }
+  input[type="text"] {
+	width: 60%;
+  }
+  
+  
 /*FOOTER - PIE DE PÁGINA*/
 footer{
 	clear: both;
