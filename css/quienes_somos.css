@@ -38,9 +38,6 @@ h3{
 	display:inline-block;
 }
 
-#compromisofin {
-    border-bottom: 5px #0A4D68 solid;
-}
 
 nav ul{
 	height: 40px;
@@ -92,6 +89,10 @@ nav li a:hover{
 #fondo_cursos{
     background-color: #95e5f1;
 
+}
+
+#compromisofin {
+    border-bottom: 5px #0A4D68 solid;
 }
 
 
