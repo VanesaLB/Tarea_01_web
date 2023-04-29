@@ -84,7 +84,8 @@ nav li a:hover{
 
 .imagenodo{
     width:30%;
-   
+	padding-right: 10px;
+	float: left;
     
 }
 
