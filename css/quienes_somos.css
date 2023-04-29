@@ -73,18 +73,12 @@ nav li a:hover{
 	border-bottom: 2px #0A4D68 solid;
 	border-top: 2px #0A4D68 solid;
 }
-section{
-	/*clear: left; /*Creo que se puede quitar*/
-	width: 60%;
-	padding: 0px;
-	margin: 0px;
-	border: 2px #0A4D68 solid;
-	display:inline-block;
-}
-section header {
-	padding: 0px;
-	margin: 0px;
-	border-bottom: 0px;
+
+.imagenodo{
+    width:30%;
+	padding-right: 10px;
+	float: left;
+    
 }
 
 section header h3{
