@@ -103,6 +103,55 @@ nav li a:hover{
 	border-top: 2px #0A4D68 solid;
 }
 
+/*DESPLEGABLE DE LA BARRA DE NAVEGACIÓN*/
+.desplegable{
+	position: relative;
+}
+.desplegable:hover ul{
+	display: block;
+	opacity: 1;
+}
+.desplegable ul{
+	width: auto;
+	height: auto;
+	position: absolute;
+	padding: 0px;
+	margin: 29px 0px;
+	text-shadow: 0px 1px 2px #333333;
+	text-align: center;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+	background-color: #0A4D68;
+	opacity: 0;
+	display: none;
+}
+.desplegable ul li{
+	position: absolute;
+	text-shadow: 0px 1px 2px #333333;
+	text-align: center;
+	border-bottom: 2px #0A4D68 solid;
+	border-top: 2px #0A4D68 solid;
+	background-color: #0A4D68;
+	padding: 10px;
+	width: 140px;
+}
+.desplegable ul li:hover{
+	border-bottom: 2px #088395 solid;
+	border-top: 2px #088395 solid;
+	background-color: #088395;
+}
+.desplegable ul li a:hover{
+	background-color: #088395;
+}
+.desp1{
+	top: 40px;
+}
+.desp2{
+	top: 80px;
+}
+
+
+
 .imagenodo{
     width:30%;
 	padding-right: 10px;
