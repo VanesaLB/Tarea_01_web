@@ -144,15 +144,36 @@ form {
 	padding: 10px;
 	font-size: 16px;
 	width: 100%;
-	box-sizing: border-box;
-	margin-bottom: 20px;
-  }
-  
-  input[type="submit"] {
-	background-color: #4CAF50;
-	border: none;
-	color: rgb(2, 11, 15);
-	padding: 12px 28px;
+	display: inline-block;
+	margin: 0;
+}
+.imgderechatexto{
+	width: 30%;
+	float: right;
+	margin-left: 12px;
+}
+.imgizquierdatexto{
+	width: 30%;
+	float: left;
+}
+
+/*CONTENIDO ASIDE*/
+aside{
+	float: right;
+	width: 29%;
+	height: auto;
+	background-color: #088395;
+	color: white;
+	padding: 0px 10px;
+	margin: 10px 10px 10px 0px;
+	border-radius: 5px;
+	border: 2px #0A4D68 solid;
+}
+aside p{
+	line-height: 1.5em;
+	font-size: 14px;
+}
+aside p a{
 	text-decoration: none;
 	font-size: 16px;
 	cursor: pointer;
