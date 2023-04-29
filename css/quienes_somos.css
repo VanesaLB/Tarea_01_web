@@ -81,37 +81,8 @@ nav li a:hover{
     
 }
 
-section header h3{
-   text-align: center;
-    color:#0A4D68;
-}
-article {
-    
-    background-color: #088395;
-	color: white;
-	font-size: 16px;
-	margin: 0px;
-	padding:  3%;
-    float:right;
-	display:inline-block;
-}
-article p{
-    position: right ;
-	float:right;
-	width: 50%;
-}
-
-
-.imagenodo{
-    width:40%;
-    padding-right: 10px;
-    float: left;
-
-
-}
-aside{
-	float:right;
-	width: 30%;
+#fondo_cursos{
+    background-color: #95e5f1;
 
 }
 
