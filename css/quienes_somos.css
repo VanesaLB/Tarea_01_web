@@ -98,10 +98,7 @@ nav li:hover{
 	color: #00FFCA;
 	border-bottom: 2px #0A4D68 solid;
 	border-top: 2px #0A4D68 solid;
-	/*transform:translate(0px, -13px);
-	-moz-transform:translate(0px, -13px);
-	-webkit-transform:translate(0px, -13px);
-	-o-transform:translate(0px, -13px);*/
+	
 }
 nav li a:hover{
 	background-color: #0A4D68;
@@ -111,6 +108,7 @@ nav li a:hover{
 }
 
 /*DESPLEGABLE DE LA BARRA DE NAVEGACIÓN*/
+
 .desplegable{
 	position: relative;
 }
@@ -175,12 +173,13 @@ nav li a:hover{
     border-bottom: 5px #0A4D68 solid;
 }
 
-/*Adaptación de ancho fijo de resoluciones de más de 1300px de ancho*/
+/*Adaptación del ancho fijo para resoluciones de pantalla de más de 1300px de ancho*/
 @media screen and (min-width: 1300px){
 	.contenedor{
 		width: 75%;
 		height: auto;
 	}
+	
 	/*BARRA DE NAVEGACIÓN*/
 	nav{
 		width: 100%;
@@ -190,6 +189,7 @@ nav li a:hover{
 		margin: 0px 1%;
 		padding: 8px 0.8%;
 	}
+	
 	/*CONTENIDO SECTION*/
 	section{
 		padding: 0px;
@@ -254,13 +254,15 @@ nav li a:hover{
 	}
 
 	
-	/*RESPONSIVE PARA MÓVILES*/
+	/*responsive formato móvil*/
 @media screen and (max-width: 700px){
 	.contenedor{
 		width: 100%;
 		height: auto;
 	}
-	/*HEADER - CABECERA*/
+	
+
+	/*HEADER*/
 	body header{
 		padding: 8% 2% 25%;
 		width: auto;
@@ -276,6 +278,7 @@ nav li a:hover{
 		padding: 0px;
 		margin: 20px 25% 0px 0px;
 	}
+	
 	/*BARRA DE NAVEGACIÓN*/
 nav{
 	width: auto;
